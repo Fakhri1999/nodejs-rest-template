@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-rest-server-template",
+  "version": "1.0.0",
+  "description": "Template for make a REST Server using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fakhri1999/nodejs-rest-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fakhri1999/nodejs-rest-template/issues"
+  },
+  "homepage": "https://github.com/Fakhri1999/nodejs-rest-template#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  }
+}
